@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="title"><img style="width: 400px" src="src/guessWho.png" /></div>
+     
+    <div class="container searchContainer">
+        <div class="search card card-body">
+          <br>
+          <br>
+          <img  style="width: 140px" src="src/robot.png" />
+        </div>
+        <br />
+        <div id="profile"></div>
+      </div
+
+    </div>
+    <div class="boxes">
+      <div class="wrapper">
+        <div class="box"><img class="char" src="src/Agnis.png" /></div>
+        <div class="box"><img class="char" src="src/Diego.png" /></div>
+        <div class="box"><img class="char" src="src/eli.png" /></div>
+        <div class="box"><img class="char" src="src/Elsa.png" /></div>
+        <div class="box"><img class="char" src="src/Erica.png" /></div>
+        <div class="box"><img class="char" src="src/Issac.png" /></div>
+        <div class="box"><img class="char" src="src/Jacob.PNG" /></div>
+        <div class="box"><img class="char" src="src/Karim.png" /></div>
+        <div class="box"><img class="char" src="src/Lisa.png" /></div>
+      </div>
+
+      <div class="controls">
+        <div class="playBtn">
+          <h3>TU PERSONAJE:</h3>
+          <img id="image" style="width: 140px" src="src/play.png" />
+        </div>
+        <form class="form1">
+          <select id="ques"> </select>
+          <br /><br />
+          <input type="submit" value="Preguntar" />
+        </form>
+
+        <form class="form2">
+          <select id="res">
+            <option value="true">NO</option>
+            <option value="false">SÍ</option>
+          </select>
+          <br /><br />
+          <input type="submit" value="Responder" />
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
